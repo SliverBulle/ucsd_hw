@@ -1,0 +1,3 @@
+For the rating prediction, I choose SVD to predict unseen users and books. It shows significant performance in the dimension cutting.
+
+For the read prediction, I choose the popularity and jaccard similarity of books and users to predict read or not by "prediction = popularity_pred | jaccard_pred | jaccard_users"
